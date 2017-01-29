@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chewy', cursive;
+}
+
+body {
+  padding-top: 5%;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: 'Chewy', cursive;
+  color: white;
+}
+
+@media(max-width: 800px) {
+  h2 {
+    font-size: 1em;
+  }
+}
+
+h3 {
+  font-family: 'Chewy', cursive;
+}
+
+.carousel {
+  width: 100vw;
+}
+
+.carousel img {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.error {
+  color: red;
+}
+
+.found {
+  background-image: url("../assets/woodbg.png");
+  background-repeat: repeat;
+  height: 65vh;
+  padding: 3%;
+}
+
+.triple {
+  background-color: white;
+  height: 100%;
+  padding: 3%;
+}
+.triple img {
+  width: 80%;
+  text-align: center;
+}
+
+.triple h1 {
+  font-size: 2em;
+}
+
+.products {
+  height: 70vh;
+  background-image: url("../assets/chocbg.jpg");
+  background-repeat: repeat;
+  padding: 3%;
+  color: white;
+}
+
+.products div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact {
+  background-image: url("../assets/bgg.jpg");
+  background-repeat: repeat;
+  padding: 3%;
+}
+
+.contact h2 {
+  color: gray;
+}
+
+.sorts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+.resizable {
+  width: 100%;
+  height: 150px;
+  padding: 0.5em;
+  background-image: url("../assets/choc.jpg");
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.hide-choc {
+  padding:10px 15px;
+  background:#FD6CA3;
+  color:#fff;
+  cursor:pointer;
+  display:inline-block;
+}
+.the-choc {
+  text-align:center;
+  background: white;
+  color:#fff;
+  padding:30px 20px
+}
+
+.the-choc img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  width: 100vw;
+  height: 100px;
+  background-color: #111;
+}
+
+.mynav {
+  background-color: #551A8B;
+  height: 100px;
+}
+
+.navbar-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  margin-top: 30px;
+  font-family: 'Chewy', cursive;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width: 500px) {
+  nav ul {
+  display: none;
+  }
+}

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Pacifico|Poppins');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+p, h1, h2 {
+	overflow-y: hidden;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;	
+}
+
+nav {
+	z-index: 100;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav img {
+	width: 80px;
+}
+
+.navbar-brand {
+	overflow: hidden;
+}
+
+
+.greeting {
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.greeting h1 {
+	color: white;
+	font-family: 'Pacifico', cursive;
+	overflow: hidden; 
+	text-align: center;
+}
+
+.greeting h1 span {
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.fixed {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../pix/bg.png);
+	background-size: cover;
+	position: fixed;
+	z-index: -10;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 5%;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 100vh;
+	width: 100vw;
+	height: 100%;
+	background-color: #008080;
+}
+
+.map {
+	width: 100%;
+}
+
+.map img {
+	width: 100%;
+}
+
+.attract {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 1%;
+	color: #222;
+	font-family: 'Poppins', sans-serif;
+	width: 100vw;
+	height: 100%;
+	background-color: white;
+}
+
+.at1 {
+	background-image: url("../pix/at1.jpg");
+	height: 50vh;
+}
+
+.at1 p, .at2 p, .at3 p {
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 12px;
+}
+
+.at2 {
+	background-image: url("../pix/at2.jpg");
+	height: 50vh;
+}
+
+.at3 {
+	background-image: url("../pix/at3.jpg");
+	height: 50vh;
+}
+
+.accordion {
+	font-family: 'Poppins', sans-serif;
+	text-transform: lowercase;
+	margin: 5%;
+}
+
+.accordion h3 {
+	font-family: 'Pacifico', cursive;	
+}
+
+.gallery {
+	padding: 3%;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	width: 100vw;
+	height: 100%;
+	background-color: #98FB98;
+	text-align: center;
+}
+
+.gallery p {
+	color: #222;
+}
+
+.gal {
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gal div {
+	width: 30%;
+	height: 200px;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.gal div img {
+	width: 100%;
+}
+
+.gal div:hover {
+	cursor: move;
+}
+
+.contact {
+	padding: 5%;
+	width: 100vw;
+	height: 100%;
+	background-color: #fff;
+}
+
+.social {
+	padding: 10%;
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: row;
+	background-color: #008080;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+
+.social img {
+	width: 30%;
+	overflow: hidden;
+}
+
+footer {
+	margin-top: 30vh;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	background-color: #111;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	height: 100px;
+}
