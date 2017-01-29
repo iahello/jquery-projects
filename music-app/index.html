@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>MUSIC APP</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Dosis');
+    .ui-header {
+      font-family: 'Bungee Shade', cursive;
+      font-size: 3.5em;
+    }
+      @media(max-width: 900px) { .ui-header { font-size: 2em;} }
+      @media(max-width: 600px) { .ui-header { font-size: 1.5em;} }
+      @media(max-width: 450px) { .ui-header { font-size: 1em;} }
+    .ui-btn, .thefooter { font-family: 'Dosis', sans-serif; }
+  </style>
+</head>
+<body>
+  <div data-role="page" data-theme="b">
+  
+    <div data-role="panel" id="mypanel" data-position="right" data-display="overlay">
+        <p>Of Monsters and Men</p>
+        <p>Oasis</p>
+        <p>Hozier</p>
+        <p>The 1975</p>
+        <p>The Japanese House</p>
+        <a href="#my-header" data-rel="close" class="ui-btn ui-btn-inline">Close panel</a>
+    </div><!-- /panel -->
+
+  <div data-role="header" id="my-header">
+    <h1>Music <br>Playlist</h1>
+    <div data-role="navbar">
+      <ul>
+          <li>
+            <a href="#about" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="flip">About</a>
+            <div data-role="popup"  id="about">
+              <p>This is a list of songs sorted by artists. <br>Created with HTML5, CSS3, and JQuery Mobile. <br>Enjoy listening!</p>
+            </div>
+          </li>
+          <li>
+            <a href="#mypanel" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="flip">Overview</a>
+          </li>
+      </ul>
+    </div><!-- /navbar -->
+  </div><!-- /header -->
+
+  <div role="main" class="ui-content">
+    <div data-role="collapsible" id="omam">
+      <h4>Of Monsters and Men</h4>
+      <ul data-role="listview">
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59NU9aSmVFVG4wQTA/view" target="_blank">
+            Dirty Paws
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/07/My_Head_Is_An_Animal.jpg" alt="omam">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59aHg0cGg5NEFaQlE/view" target="_blank">
+            Mountain Sound
+            <img src="http://orig03.deviantart.net/d172/f/2012/341/2/9/of_monsters_and_men_album_cover_by_idesignwrestlingstuf-d5ncliq.png" alt="omam">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59a29vWTdlWG1hMGc/view" target="_blank">
+            Slow and Steady
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Beneath_the_Skin.png" alt="omam">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div data-role="collapsible">
+      <h4>Oasis</h4>
+      <ul data-role="listview">
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59emRzMFR5UlVGMzA/view" target="_blank">
+            Supersonic
+            <img src="http://cdn.pitchfork.com/albums/21001/4600c83a.jpg" alt="oasis">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59YUxTekpqYV9PTEE/view" target="_blank">
+            Whatever
+            <img src="http://www.feelnumb.com/wp-content/uploads/2009/10/oasis-be-here-now-delantera.jpg" alt="oasis">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59VWlhb0FUeDYteTQ/view" target="_blank">
+            Some Might Say
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/17/Wonderwall_cover.jpg" alt="oasis">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div data-role="collapsible">
+      <h4>Hozier</h4>
+      <ul data-role="listview">
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59RzBDbGt2MGRXaUU/view" target="_blank">
+            From Eden
+            <img src="http://cdn1.umg3.net/islandrecords/uploads/2014/04/fromeden.jpg" alt="hozier">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59b3ZNRXJGR1lrOWM/view" target="_blank">
+            Work Song
+            <img src="http://ma.cdnmonster.com/files/al/4Mo/hyZihwEqXk.jpg" alt="hozier">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59a0hFX0ZHQ3JTV00/view" target="_blank">
+            Like Real People Do
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/Hozier_album.jpg" alt="hozier">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div data-role="collapsible">
+      <h4>The 1975</h4>
+      <ul data-role="listview">
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59bnB0SHM3d1lFOHc/view" target="_blank">
+            I Like It When You Sleep
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/03/The_1975_(album)_by_The_1975.png" alt="the1975">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59ajdTZjFTSU5lbjQ/view" target="_blank">
+            The Sound
+            <img src="http://ksassets.timeincuk.net/wp/uploads/sites/55/2015/10/11377248_1060854280611036_7596316613024008793_n-1.jpg" alt="the1975">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59VkVFZ0JJSWxrWmc/view" target="_blank">
+            This Must Be A Dream
+            <img src="http://vagrant.com/1975/the1975-iv.png" alt="the1975">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div data-role="collapsible">
+      <h4>The Japanese House</h4>
+      <ul data-role="listview">
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59SEFzUV92RERSWWc/view" target="_blank">
+            Sister
+            <img src="http://www.themusicninja.com/wp-content/uploads/2015/03/The-Japanese-House-87C5AB-e1425419565375.jpg" alt="thejapanesehouse">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59TEFyRk8yd0RoeWs/view" target="_blank">
+            Still
+            <img src="http://www.dirtyhit.co.uk/wordpress/wp-content/uploads/Cool-Blue.jpg" alt="thejapanesehouse">
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/0B0f71ObbJo59YUtxdEY4MHNSTVU/view" target="_blank">
+            Teeth
+            <img src="http://a2.mzstatic.com/us/r30/Music6/v4/46/f8/e9/46f8e99e-a16f-dd8c-b70b-d4945e83bb50/cover170x170.jpeg" alt="thejapanesehouse">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div data-role="footer" data-position="fixed" class="thefooter">
+      <h4>Buenacosa, Iah | WD-301</h4>
+    </div>
+    
+  </div> <!--main-->
+</div> <!--page-->
+</body>
+</html>
